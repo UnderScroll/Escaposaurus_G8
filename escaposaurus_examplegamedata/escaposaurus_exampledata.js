@@ -89,10 +89,10 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "scan_memo.png" ;
-		seqMainHint[1] = "aucun" ; /*if you put anything that is not an existing filename of the udisk, the player will never be able to call any contacts or get helps during this sequence*/
-		seqMainHint[2] = "aucun" ;
-		seqMainHint[3] = "swisstopo-screen.png" ;
+		seqMainHint[0] = "Habillage des pingouins" ;
+		seqMainHint[1] = "Photos des affreux" ;
+		seqMainHint[2] = "Administratif" ;
+		seqMainHint[3] = "Data biométrique" ;
 
 		/*contact list, vid is the name of their folder in the videoContact folder, then the game autoload the video named seq%number of the current sequence%, e.g. seq0.MP4 for the first sequence (numbered 0 because computer science habits)
 	their img need to be placed in their video folder, username is their displayed name
@@ -107,28 +107,28 @@
 
 
 		/*ce qui apparait quand on trouve le dernier élément du disque dur*/
-		finalStepAdded = "ID du GPS transmise aux secours." ;
+		finalStepAdded = "Charlie a été retrouvé!" ;
 
 		/*the last call, it can be the person we find in the end or anyone else we call to end the quest, allows the game to know it is the final contact that is called and to proceed with the ending*/
-		var missingContact = {"vid" : "missing", "vod_folder" : "","username" : "Nathalie",  "canal" : "video", "avatar" : "nata_avatar.jpg"} ;
+		var missingContact = {"vid" : "missing", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "nata_avatar.jpg"} ;
 
-		/*Lou only send text message, they are stored here*/
+		/*The Veto only sends text messages, they are stored here*/
 		var tips = {} ;
-		tips['Albert'] = [] ;
-		tips['Albert'][0] = "Je peux pas répondre à votre appel. Mais je peux vous répondre par écrit. Donc vous cherchez le surnom d'un guide ? Je crois que les contacts sont des guides justement, essayez peut-être de les appeler." ;
-		tips['Albert'][1] = "" ;
-		tips['Albert'][2] = "" ;
-		tips['Albert'][3] = "Ah zut, un dossier verouillé sans infos dans scan mémo ? Y'a forcément un truc mnémotechnique facile à retenir ou retrouver. Les guides en disent quoi ?" ;
+		tips['Veto'] = [] ;
+		tips['Veto'][0] = "Je peux pas répondre à votre appel. Mais je peux vous répondre par écrit. Donc vous cherchez le surnom d'un guide ? Je crois que les contacts sont des guides justement, essayez peut-être de les appeler." ;
+		tips['Veto'][1] = "" ;
+		tips['Veto'][2] = "" ;
+		tips['Veto'][3] = "Ah zut, un dossier verouillé sans infos dans scan mémo ? Y'a forcément un truc mnémotechnique facile à retenir ou retrouver. Les guides en disent quoi ?" ;
 
 
 		/*text for the instruction / solution windows*/
 		var instructionText = {} ;
-		instructionText.winState = "Vous avez retrouvé l'id GPS et vous pouvez appeler les secours du secteur." ;
+		instructionText.winState = "Vous avez retrouvé Charlie! Direction le bain pour lui et un repos bien mértié pour vous!" ;
 		instructionText.lackMainHint = "" ;
 		instructionText.password = "Vous devez trouver et entrer le mot de passe d'un des dossiers de la boite de droite. Vous pouvez trouver le mot de passe en appelant les contacts de la boite de gauche.<br/>Pour entrer un mot de passe, cliquez sur le nom d'un dossier et une fenêtre s'affichera pour que vous puissiez donner le mot de passe." ;
 
 		/*please note the %s into the text that allow to automatically replace them with the right content according to which sequence the player is in*/
 		var solutionText = {} ;
-		solutionText.winState = "Si Sabine a été secourue, le jeu est fini bravo." ;
+		solutionText.winState = "Si Charlie a été secouru, le jeu est fini, bravo!" ;
 		solutionText.lackMainHint = "Vous devez ouvrir le fichier <b>%s</b><br/>" ;
 		solutionText.password = "Vous devez déverouiller le dossier <b>%s1</b><br/>avec le mot de passe : <b>%s2</b><br/>" ;
