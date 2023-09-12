@@ -33,7 +33,7 @@ video{max-width: 960px;}
 /*main div container*/
 #main-container{
 	max-width: 1300px;
-	max-height:800px;
+	max-height:1000px;
 	margin: auto;
 	height:100%;
 	border:1px solid #1022CC;
