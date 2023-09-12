@@ -38,24 +38,21 @@
 	  	{"root":{
 	  		"folders":
 		  		[
-				{"foldername":"dossierOuvertDeBase",
-						"files":["carte1.jpg", "carte2.jpg", "carte3.jpg"]
-				},
-				{"foldername":"dossier1","password":"AAA","sequence":0,
-			  		"files":["20180807_103031.jpg", "20180807_114356.jpg"]
+				{"foldername":"Habillage des pingouins","password":"Aperture","sequence":0,
+			  		"files":["Commande des pulls.jpg", "Billets voyage.jpg"]
 			  	},
-			  	{"foldername":"dossier2", "password":"BBB","sequence":1,
-			  		"files":["fortnitescreen.png", "swisstopo-screen.png", "swisstopo-screen.png", "swisstopo-screen.png"]
+			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
+			  		"files":["B & C.png", "B & L.png", "La Bagarre.gif", "Veto Love.png"]
 			  	},
-                {"foldername":"dossier3", "password":"CCC","sequence":2,
-			  		"files":["fortnitescreen.png", "swisstopo-screen.png"]
+                {"foldername":"Administratif", "password":"Bonnie&Clyde","sequence":2,
+			  		"files":["Employés du mois.png"]
 			  	},
-                {"foldername":"dossier4", "password":"DDD","sequence":3,
+                {"foldername":"Data biométrique", "password":"PLACEHOLDER","sequence":3,
 			  		"files":[]
 			  	}
 		 		],
 			"files":[
-				"scan_memo.png"]}
+				"Mots de Passe.png", "Nouvel Arrivage.jpg", "Penguin Trombi.jpg"]}
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
@@ -64,7 +61,7 @@
 		var gameMissionAccept = "&raquo;&raquo; Ouvir le nordinateur de la Madame (JOUER) &laquo;&laquo;" ;
 
 		var gameCredit = "Un jeu conçu et réalisé par : <br/>l'équipe 8 de la P20 JMIN" ;
-		var gameThanks = "Remerciements : personne, on déteste tout le monde<br/> ;)" ;
+		var gameThanks = "Remerciements : personne, on déteste tout le monde" ;
 
 		var OSName = "PenguinOS (no, not Linux) 2.13- diskloaded: Charlie_Is_Lost"
 		var explorerName = "USB DISK EXPLORER" ;
