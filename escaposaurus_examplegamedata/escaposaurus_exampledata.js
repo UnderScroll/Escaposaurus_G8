@@ -39,7 +39,7 @@
 	  		"folders":
 		  		[
 				{"foldername":"dossierOuvertDeBase",
-						"files":["carte1.jpg", "carte2.jpg", "carte3.jpg", "carte4.jpg"]
+						"files":["carte1.jpg", "carte2.jpg", "carte3.jpg"]
 				},
 				{"foldername":"dossier1","password":"AAA","sequence":0,
 			  		"files":["20180807_103031.jpg", "20180807_114356.jpg"]
@@ -86,7 +86,7 @@
 		prompt[4] = "Appeler Nathalie pour savoir où en sont les secours." ;
 
 		/*when the sequence number reaches this, the player win, the missing contact is added and the player can call them*/
-		var sequenceWin = 5 ;
+		var sequenceWin = 4 ;
 
 		/*before being able to call the contacts, the player has to open the main clue of the sequence as indicated in this array*/
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
@@ -101,13 +101,12 @@
 	their img need to be placed in their video folder, username is their displayed name
 		*/
 		var normalContacts = [] ;
-		normalContacts[0] = {"vid" : "Denise", "vod_folder" : "", "username" : "Denise (guide)", "canal" : "video", "avatar" : "denise_avatar.jpg"} ;
-		normalContacts[1] = {"vid" : "Nathalie", "vod_folder" : "", "username" : "Nathalie (guide)", "canal" : "video", "avatar" : "nata_avatar.jpg"} ;
+		normalContacts[0] = {"vid" : "Don", "vod_folder" : "", "username" : "Don", "canal" : "video", "avatar" : "denise_avatar.jpg"} ;
+		normalContacts[1] = {"vid" : "Maurice", "vod_folder" : "", "username" : "Maurice", "canal" : "video", "avatar" : "nata_avatar.jpg"} ;
 
 		/*second part of the list, contact that can help the player*/
 		var helperContacts = [] ;
-		helperContacts[0] = {"vid" : "Albert", "vod_folder" : "", "username" : "Albert (pour avoir un indice)", "canal" : "txt", "avatar" : "albert.png", "bigAvatar" : "albertbig.png"} ;
-		/*helperContacts[1] = {"vid" : "Lou", "username" : "Lou (pour avoir un deuxième indice) - par message", "canal" : "txt", "avatar" : "Lou_opt.jpg", "bigAvatar" : "avatarHelper2Big.gif"} ;*/
+		helperContacts[0] = {"vid" : "Veto", "vod_folder" : "", "username" : "Veto", "canal" : "txt", "avatar" : "albert.png", "bigAvatar" : "albertbig.png"} ;
 
 
 		/*ce qui apparait quand on trouve le dernier élément du disque dur*/
