@@ -52,7 +52,7 @@
 			  	}
 		 		],
 			"files":[
-				"Mots de Passe.png", "Nouvel Arrivage.jpg", "Penguin Trombi.jpg"]}
+				"Mots_de_Passe.png", "Nouvel Arrivage.jpg", "Penguin Trombi.jpg"]}
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
@@ -76,11 +76,11 @@
 		/*change of caller app prompt for each sequence*/
 		var promptDefault = "Rien à demander, ne pas les déranger." ;
 		var prompt = [] ;
-		prompt[0] = "Prendre contact" ;
-		prompt[1] = "" ;
-		prompt[2] = "" ;
-		prompt[3] = "Envoyer la carte" ;
-		prompt[4] = "Appeler Nathalie pour savoir où en sont les secours." ;
+		prompt[0] = " " ;
+		prompt[1] = " " ;
+		prompt[2] = " " ;
+		prompt[3] = " " ;
+		prompt[4] = " " ;
 
 		/*when the sequence number reaches this, the player win, the missing contact is added and the player can call them*/
 		var sequenceWin = 4 ;
@@ -89,36 +89,36 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "Habillage des pingouins" ;
-		seqMainHint[1] = "Photos des affreux" ;
-		seqMainHint[2] = "Administratif" ;
-		seqMainHint[3] = "Data biométrique" ;
+		seqMainHint[0] = "" ; //The "noHint" here does not work
+		seqMainHint[1] = "noHint" ;
+		seqMainHint[2] = "noHint" ;
+		seqMainHint[3] = "noHint" ;
 
 		/*contact list, vid is the name of their folder in the videoContact folder, then the game autoload the video named seq%number of the current sequence%, e.g. seq0.MP4 for the first sequence (numbered 0 because computer science habits)
 	their img need to be placed in their video folder, username is their displayed name
 		*/
 		var normalContacts = [] ;
-		normalContacts[0] = {"vid" : "Don", "vod_folder" : "", "username" : "Don", "canal" : "video", "avatar" : "denise_avatar.jpg"} ;
-		normalContacts[1] = {"vid" : "Maurice", "vod_folder" : "", "username" : "Maurice", "canal" : "video", "avatar" : "nata_avatar.jpg"} ;
+		normalContacts[0] = {"vid" : "Don", "vod_folder" : "", "username" : "Don", "canal" : "video", "avatar" : "don_avatar.jpg"} ;
+		normalContacts[1] = {"vid" : "Maurice", "vod_folder" : "", "username" : "Maurice", "canal" : "video", "avatar" : "maurice_avatar.jpg"} ;
 
 		/*second part of the list, contact that can help the player*/
 		var helperContacts = [] ;
-		helperContacts[0] = {"vid" : "Veto", "vod_folder" : "", "username" : "Veto", "canal" : "txt", "avatar" : "albert.png", "bigAvatar" : "albertbig.png"} ;
+		helperContacts[0] = {"vid" : "Veto", "vod_folder" : "", "username" : "Veto", "canal" : "txt", "avatar" : "veto.png", "bigAvatar" : "vetobig.png"} ;
 
 
 		/*ce qui apparait quand on trouve le dernier élément du disque dur*/
 		finalStepAdded = "Charlie a été retrouvé!" ;
 
 		/*the last call, it can be the person we find in the end or anyone else we call to end the quest, allows the game to know it is the final contact that is called and to proceed with the ending*/
-		var missingContact = {"vid" : "missing", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "nata_avatar.jpg"} ;
+		var missingContact = {"vid" : "VetoEnd", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "veto.jpg"} ;
 
 		/*The Veto only sends text messages, they are stored here*/
 		var tips = {} ;
 		tips['Veto'] = [] ;
-		tips['Veto'][0] = "Je peux pas répondre à votre appel. Mais je peux vous répondre par écrit. Donc vous cherchez le surnom d'un guide ? Je crois que les contacts sont des guides justement, essayez peut-être de les appeler." ;
+		tips['Veto'][0] = "Je peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tout le monde dans un des dossier..." ;
 		tips['Veto'][1] = "" ;
 		tips['Veto'][2] = "" ;
-		tips['Veto'][3] = "Ah zut, un dossier verouillé sans infos dans scan mémo ? Y'a forcément un truc mnémotechnique facile à retenir ou retrouver. Les guides en disent quoi ?" ;
+		tips['Veto'][3] = "" ;
 
 
 		/*text for the instruction / solution windows*/
