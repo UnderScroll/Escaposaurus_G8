@@ -38,21 +38,20 @@
 	  	{"root":{
 	  		"folders":
 		  		[
-		  		{"foldername":"gaming",
-				  	"files":["20190509_316504.mp4"]
-				},
-				{"foldername":"vieillescartespostales",
+				{"foldername":"dossierOuvertDeBase",
 						"files":["carte1.jpg", "carte2.jpg", "carte3.jpg", "carte4.jpg"]
 				},
-				{"foldername":"dcim","password":"forclaz","sequence":1,
-			  		"files":["20180807_103031.jpg", "20180807_114356.jpg", "20180807_123538.mp4"]
+				{"foldername":"dossier1","password":"AAA","sequence":0,
+			  		"files":["20180807_103031.jpg", "20180807_114356.jpg"]
 			  	},
-			  	{"foldername":"itineraire2018",
-			  		"folders":[{"foldername":"perso", "files":["FXHT4438a.jpg","Screenshot20180701_Wanderplaner(1).jpg"],"password":"nata","sequence":0}]
+			  	{"foldername":"dossier2", "password":"BBB","sequence":1,
+			  		"files":["fortnitescreen.png", "swisstopo-screen.png", "swisstopo-screen.png", "swisstopo-screen.png"]
 			  	},
-			  	{"foldername":"itineraire2019", "password":"trient","sequence":2,
-			  		"files":["fortnitescreen.png", "swisstopo-screen.png"],
-			  		"folders":[{"foldername":"GPS", "files":["idgps.png"],"password":"wandfluehorn","sequence":3}]
+                {"foldername":"dossier3", "password":"CCC","sequence":2,
+			  		"files":["fortnitescreen.png", "swisstopo-screen.png"]
+			  	},
+                {"foldername":"dossier4", "password":"DDD","sequence":3,
+			  		"files":[]
 			  	}
 		 		],
 			"files":[
@@ -67,7 +66,7 @@
 		var gameCredit = "Un jeu conçu et réalisé par : <br/>l'équipe 8 de la P20 JMIN" ;
 		var gameThanks = "Remerciements : personne, on déteste tout le monde<br/> ;)" ;
 
-		var OSName = "Special InformaticienOS 3.11- diskloaded: Escaposaurus_Example" ;
+		var OSName = "PenguinOS (no, not Linux) 2.13- diskloaded: Charlie_Is_Lost"
 		var explorerName = "USB DISK EXPLORER" ;
 		var callerAppName = "CALL CONTACT" ;
 
@@ -87,7 +86,7 @@
 		prompt[4] = "Appeler Nathalie pour savoir où en sont les secours." ;
 
 		/*when the sequence number reaches this, the player win, the missing contact is added and the player can call them*/
-		var sequenceWin = 4 ;
+		var sequenceWin = 5 ;
 
 		/*before being able to call the contacts, the player has to open the main clue of the sequence as indicated in this array*/
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
