@@ -371,14 +371,18 @@ function isItPasswordProtected(foldername){
 
 function doThePasswordMatch(userTry, foldername){
 	var userTryCleared = userTry.replace(/[^a-z0-9]/gi, '') ;
-	var passwordCleared = passwordCenter[foldername].replace(/[^a-z0-9]/gi, '') ;
+	var passwordCleared = passwordCenter[foldername].replace(/[^a-z0-9,]/gi, '') ;
 
-	if(isItPasswordProtected(foldername)
-		&& passwordCleared.toLowerCase() == userTryCleared.toLowerCase()){
+	var parsedPassword = passwordCleared.split(',');
+
+	console.log(parsedPassword);
+
+	for (var i = 0; i < parsedPassword.length; i++) {
+		if (isItPasswordProtected(foldername) && parsedPassword[i].toLowerCase() == userTryCleared.toLowerCase())
 		return true;
-	}else{
-		return false;
 	}
+
+	return false;
 }
 
 function checkIfEnter(e, userTry, foldername){
