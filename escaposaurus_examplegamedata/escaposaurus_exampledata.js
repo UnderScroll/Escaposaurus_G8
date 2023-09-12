@@ -59,13 +59,13 @@
 				"scan_memo.png"]}
 		} ;
 
-		var gameTitle = "Escaposaurus Scenario Exemple" ;
-		var gameDescriptionHome = "Ceci est une courte aventure d'exemple pour montrer ce que le framework Escaposaurus permet facilement de réaliser.<br/>Le code source est téléchargeable sur <a href='https://github.com/RedNaK/escaposaurus' target='_blank'>GitHub</a>" ;
-		var gameMissionCall = "Voici la vidéo qu'Albert a envoyé à votre bureau d'informaticien spécialisé en récupération de données" ;
-		var gameMissionAccept = "&raquo;&raquo; Accepter la mission et charger la clé USB dans le serveur virtuel (JOUER) &laquo;&laquo;" ;
+		var gameTitle = "Il faut sauver soldat Charlie" ;
+		var gameDescriptionHome = "Seul dans le bureau de la Madame, le téléphone sonne, vite, il faut répondre!<br/>Le code source est téléchargeable sur <a href='https://github.com/UnderScroll/Escaposaurus_G8' target='_blank'>GitHub</a>" ;
+		var gameMissionCall = "Voici la vidéo que la Madame vous a envoyée " ;
+		var gameMissionAccept = "&raquo;&raquo; Ouvir le nordinateur de la Madame (JOUER) &laquo;&laquo;" ;
 
-		var gameCredit = "Un jeu conçu et réalisé par : <br/>Stéphanie Mader" ;
-		var gameThanks = "Remerciements : <br/> ;)" ;
+		var gameCredit = "Un jeu conçu et réalisé par : <br/>l'équipe 8 de la P20 JMIN" ;
+		var gameThanks = "Remerciements : personne, on déteste tout le monde<br/> ;)" ;
 
 		var OSName = "Special InformaticienOS 3.11- diskloaded: Escaposaurus_Example" ;
 		var explorerName = "USB DISK EXPLORER" ;
@@ -86,7 +86,7 @@
 		prompt[3] = "Envoyer la carte" ;
 		prompt[4] = "Appeler Nathalie pour savoir où en sont les secours." ;
 
-		/*when the sequence number reach this, the player win, the missing contact is added and the player can call them*/
+		/*when the sequence number reaches this, the player win, the missing contact is added and the player can call them*/
 		var sequenceWin = 4 ;
 
 		/*before being able to call the contacts, the player has to open the main clue of the sequence as indicated in this array*/
