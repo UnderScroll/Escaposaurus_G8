@@ -375,8 +375,6 @@ function doThePasswordMatch(userTry, foldername){
 
 	var parsedPassword = passwordCleared.split(',');
 
-	console.log(parsedPassword);
-
 	for (var i = 0; i < parsedPassword.length; i++) {
 		if (isItPasswordProtected(foldername) && parsedPassword[i].toLowerCase() == userTryCleared.toLowerCase())
 		return true;

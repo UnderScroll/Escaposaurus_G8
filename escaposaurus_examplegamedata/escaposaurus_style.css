@@ -100,7 +100,8 @@ video{max-width: 960px;}
 /*call app*/
 #callApp{
 	width:500px;
-	height:auto;
+	height:75%;
+	max-height:310px;
 	padding:0 0 0 0;
 	margin:50 100 12 50;
 	background-color:#fff;
@@ -153,7 +154,7 @@ video{max-width: 960px;}
 /* udisk app*/
 #folderApp{
 	width:450px;
-	height:650px;
+	height:75%;
 	overflow: auto;
 	padding:0 0 0 0;
 	margin:50 0 0 150;
