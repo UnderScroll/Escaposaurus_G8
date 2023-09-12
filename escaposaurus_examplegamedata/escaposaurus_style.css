@@ -198,7 +198,6 @@ video{max-width: 960px;}
 #wrongPassword,
 #newContact-window,
 #calling-window,
-#message-window,
 #nocall-window,
 #solution-window,
 #credit-window{
@@ -209,6 +208,16 @@ video{max-width: 960px;}
 	border:1px solid white;
 	background-color:#000;
 	width:200px;
+}
+
+#message-window{
+	position:absolute;
+	z-index:300;
+	left:37%;
+	top:35%;
+	border:1px solid white;
+	background-color:#000;
+	width:500px;
 }
 
 #solution-window,

@@ -44,7 +44,7 @@
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
 			  		"files":["B & C.png", "B & L.png", "La Bagarre.gif", "Veto Love.png"]
 			  	},
-                {"foldername":"Administratif", "password":"Bonnie&Clyde","sequence":2,
+                {"foldername":"Administratif", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie","sequence":2,
 			  		"files":["Employés du mois.png"]
 			  	},
                 {"foldername":"Data biométrique", "password":"PLACEHOLDER","sequence":3,
@@ -116,7 +116,7 @@
 		var tips = {} ;
 		tips['Veto'] = [] ;
 		tips['Veto'][0] = "Je peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tout le monde dans un des dossier..." ;
-		tips['Veto'][1] = "" ;
+		tips['Veto'][1] = "Je peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tout le monde dans un des dossier..." ;
 		tips['Veto'][2] = "" ;
 		tips['Veto'][3] = "" ;
 
