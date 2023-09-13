@@ -52,7 +52,7 @@
 			  	}
 		 		],
 			"files":[
-				"Mots_de_Passe.png", "Penguin Trombi.jpg"]}
+				"Mots de Passe.pdf", "Penguin Trombi.jpg"]}
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
