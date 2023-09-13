@@ -39,7 +39,7 @@
 	  		"folders":
 		  		[
 				{"foldername":"Documentation administratif","password":"Little Blue Bird Save, LBBS","sequence":0,
-			  		"files":["Commande_des_pulls.pdf", "Billets_voyage.jpg", "Nouvel_Arrivage.pdf"],
+			  		"files":["Commande_des_pulls.pdf", "Article_1.jpg", "Nouvel_Arrivage.pdf"],
 					"folders":[
 						{"foldername":"Etude pingouins", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
 							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.pdf"]}
