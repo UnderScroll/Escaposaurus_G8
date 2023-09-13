@@ -75,10 +75,10 @@ video{max-width: 960px;}
 #os-name{
 	color:#FCF9F5;
 	font-size:30px;
-	font-weight: bold;
 	padding:5px;
+	font-weight: medium;
 	background-color:#464A51;
-	font-family: Koulen;
+	font-family: Rubik;
 }
 
 #main-game-div{
@@ -87,7 +87,6 @@ video{max-width: 960px;}
 
 /*shared style for app*/
 .app-title{
-	height:50px;
 	background-color: #464A51;
 	color: #FCF9F5;
 	text-align: center;
@@ -97,6 +96,8 @@ video{max-width: 960px;}
 	font-family: Koulen ;
 	font-size:30px;
 	margin-top: 10px;
+	position: relative;
+	top: 2px;
 }
 
 /*call app*/
@@ -317,6 +318,9 @@ video{max-width: 960px;}
 	font-family: Rubik ;
 	font-size:16px;
 	font-weight:bold;
+	padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
 }
 
 .footer-button:hover{
