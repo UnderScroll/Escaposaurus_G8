@@ -53,7 +53,7 @@
 			  	}
 		 		],
 			"files":[
-				"Mots de Passe.pdf", "Penguin Trombi.png"]}
+				"Mots de Passe.png", "Penguin Trombi.png"]}
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
@@ -90,7 +90,7 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "noHint" ;
+		seqMainHint[0] = "Mots de Passe.png" ;
 		seqMainHint[1] = "Nouvel_Arrivage.jpg" ;
 		seqMainHint[2] = "noHint" ;
 		seqMainHint[3] = "noHint" ;

@@ -11,7 +11,7 @@
 /*by default there is no margin or padding anywhere*/
 *{ margin: 0px; padding: 0px; }
 a{color:#37383f;}
-body{font-family: Arial;}
+body{font-family: Rubik;}
 
 /*on veut la lightbox devant*/
 .lightbox-container {
@@ -21,12 +21,17 @@ body{font-family: Arial;}
 video{max-width: 960px;}
 
 @font-face {
-    font-family: Roboto;
-    src: url('img/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+    font-family: Koulen;
+    src: url('img/fonts/Koulen/Koulen-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: Odibee;
-    src: url('img/fonts/Odibee_Sans/OdibeeSans-Regular.ttf') format('truetype');
+    font-family: Rubik;
+    src: url('img/fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: RubikMedium;
+    src: url('img/fonts/Rubik/Rubik-Medium.ttf') format('truetype');
 }
 
 /*size of the countainer defined to fit most used screen resolution*/
@@ -73,7 +78,7 @@ video{max-width: 960px;}
 	font-weight: bold;
 	padding:5px;
 	background-color:#464A51;
-	font-family: Roboto;
+	font-family: Koulen;
 }
 
 #main-game-div{
@@ -85,12 +90,13 @@ video{max-width: 960px;}
 	height:50px;
 	background-color: #464A51;
 	color: #FCF9F5;
-	text-align:center;
+	text-align: center;
 }
 
 .app-title-span{
-	font-family: Odibee ;
+	font-family: Koulen ;
 	font-size:30px;
+	margin-top: 10px;
 }
 
 /*call app*/
@@ -111,6 +117,7 @@ video{max-width: 960px;}
 	text-align: center;
 	background-color:#98A9BC;
 	color:black;
+	font-weight: 500;
 }
 
 .contact-list{
@@ -256,7 +263,7 @@ video{max-width: 960px;}
 	border: none;
 	padding:3px;
 	margin:3px;
-	font-family: Roboto ;
+	font-family: Rubik ;
 	font-size:14px;
 	font-weight:bold;
 }
@@ -307,7 +314,7 @@ video{max-width: 960px;}
 	border:none;
 	margin-right:5px;
 	padding:3px;
-	font-family: Roboto ;
+	font-family: Rubik ;
 	font-size:16px;
 	font-weight:bold;
 }
@@ -346,7 +353,7 @@ video{max-width: 960px;}
 /*class that deals with the udrive content, tread carefully, it is working ok but very capricious*/
 ul{
     margin: 0px 0px 0px 20px; 
-    list-style: none; line-height: 2em; font-family: Arial;
+    list-style: none; line-height: 2em; font-family: Rubik;
 }
 
 .arbo, .folder{

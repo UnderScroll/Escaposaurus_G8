@@ -129,22 +129,22 @@ function loadGame(folders, files, overlay){
 
 /*find files that are hint and add listener so a callback is called when they are opened to allow the game to proceed and unlock the contact*/
 function addListenerToLink(){
-	var z = document.getElementsByClassName('file-name') ;
-	for(var i = 0 ; i < z.length ; i++){
-		var fn = z[i].href.substring(z[i].href.lastIndexOf('/')+1);
-		if(seqMainHint.includes(fn)){
-			z[i].addEventListener("click", callbackClicHint) ;
-		}
-	}
+    var z = document.getElementsByClassName('file-name') ;
+    for(var i = 0 ; i < z.length ; i++){
+        var fn = decodeURIComponent(z[i].href.substring(z[i].href.lastIndexOf('/')+1));
+        if(seqMainHint.includes(fn)){
+            z[i].addEventListener("click", callbackClicHint) ;
+        }
+    }
 }
 
 var callbackClicHint = function(evt){
-	var fn = evt.target.href.substring(evt.target.href.lastIndexOf('/')+1);
-	if(fn == seqMainHint[sequenceNumber]){
-		mainHintFound = true ;
-		unlockContacts() ;
-	}
-}
+    var fn = decodeURIComponent(evt.target.href.substring(evt.target.href.lastIndexOf('/')+1));
+    if(fn == seqMainHint[sequenceNumber]){
+        mainHintFound = true ;
+        unlockContacts() ;
+    }
+} 
 
 function unlockContacts(){
 	var p = document.getElementById("callApp-prompt") ;
