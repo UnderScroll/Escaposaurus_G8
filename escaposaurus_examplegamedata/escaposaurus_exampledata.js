@@ -52,12 +52,7 @@
 			  		"files":[]
 			  	}
 		 		],
-			"files":[
-<<<<<<< Updated upstream
-				"Mots de Passe.png", "Penguin Trombi.png"]}
-=======
-				"Mots de Passe.jpg", "Penguin Trombi.png"]}
->>>>>>> Stashed changes
+			"files":["Mots de Passe.jpg", "Penguin Trombi.png"]}
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
