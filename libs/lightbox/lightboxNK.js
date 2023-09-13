@@ -53,6 +53,15 @@ function startLighBox(){
         return image;
       }
 
+      if (content.match(/\.(pdf)/)) {
+        const iframe = doc.createElement('iframe');
+        iframe.className = 'lightbox-pdf';
+        iframe.src = content;
+        // iframe.width="800px";
+        // iframe.height="600px";
+        return iframe;
+      }
+
       /*NK CHANGE FOR A VIDEO ELEMENT ADD*/
       /*
      if (content.match(/\.(mov|mp4|mpeg|avi)/)) {
