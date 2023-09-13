@@ -38,8 +38,6 @@
 	  	{"root":{
 	  		"folders":
 		  		[
-				{"foldername":"Documentation administrative","password":"Little Blue Bird Save","sequence":0,
-			  		"files":["Commande_des_pulls.jpg", "Billets_voyage.jpg", "Nouvel_Arrivage.jpg"],
 				{"foldername":"Documentation administratif","password":"Little Blue Bird Save, LBBS","sequence":0,
 			  		"files":["Commande_des_pulls.jpg", "Billets_voyage.jpg", "Nouvel_Arrivage.pdf"],
 					"folders":[
