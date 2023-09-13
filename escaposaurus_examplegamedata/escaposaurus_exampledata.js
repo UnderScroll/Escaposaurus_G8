@@ -39,10 +39,10 @@
 	  		"folders":
 		  		[
 				{"foldername":"Documentation administratif","password":"Little Blue Bird Save, LBBS","sequence":0,
-			  		"files":["Commande_des_pulls.jpg", "Billets_voyage.jpg", "Nouvel_Arrivage.pdf"],
+			  		"files":["Commande_des_pulls.pdf", "Billets_voyage.jpg", "Nouvel_Arrivage.pdf"],
 					"folders":[
 						{"foldername":"Etude pingouins", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
-							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.png"]}
+							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.pdf"]}
 					]
 			  	},
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
@@ -90,7 +90,7 @@
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
 		seqMainHint[0] = "Mots de Passe.png" ;
-		seqMainHint[1] = "Nouvel_Arrivage.jpg" ;
+		seqMainHint[1] = "Nouvel_Arrivage.pdf" ;
 		seqMainHint[2] = "noHint" ;
 		seqMainHint[3] = "noHint" ;
 
