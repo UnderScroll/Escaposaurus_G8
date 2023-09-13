@@ -47,7 +47,7 @@
                 {"foldername":"Administratif", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie","sequence":2,
 			  		"files":["Employés du mois.png"]
 			  	},
-                {"foldername":"Data biométrique", "password":"PLACEHOLDER","sequence":3,
+                {"foldername":"Data biométrique", "password":"118","sequence":3,
 			  		"files":[]
 			  	}
 		 		],
@@ -89,8 +89,8 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "Mots_de_Passe.png" ; //The "noHint" here does not work
-		seqMainHint[1] = "noHint" ;
+		seqMainHint[0] = "noHint" ; //The "noHint" here does not work
+		seqMainHint[1] = "Mots_de_Passe.png" ;
 		seqMainHint[2] = "noHint" ;
 		seqMainHint[3] = "noHint" ;
 

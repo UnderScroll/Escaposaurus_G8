@@ -104,6 +104,11 @@ function loadGame(folders, files, overlay){
     createContactList() ;
     lockContacts() ;
 
+	if(seqMainHint[sequenceNumber] == "noHint"){
+		mainHintFound = true ;
+		unlockContacts() ;
+	}	
+
     /*launch lightbox after creation of the udisk to make it work*/
     startLighBox() ;
 
