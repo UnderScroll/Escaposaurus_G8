@@ -89,7 +89,7 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "" ; //The "noHint" here does not work
+		seqMainHint[0] = "Mots_de_Passe.png" ; //The "noHint" here does not work
 		seqMainHint[1] = "noHint" ;
 		seqMainHint[2] = "noHint" ;
 		seqMainHint[3] = "noHint" ;
@@ -115,10 +115,10 @@
 		/*The Veto only sends text messages, they are stored here*/
 		var tips = {} ;
 		tips['Veto'] = [] ;
-		tips['Veto'][0] = "Je peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tout le monde dans un des dossier..." ;
-		tips['Veto'][1] = "Je peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tout le monde dans un des dossier..." ;
-		tips['Veto'][2] = "" ;
-		tips['Veto'][3] = "" ;
+		tips['Veto'][0] = "Je peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tout le monde dans un des dossier... Il doit y avoir une liste des mots de passe qui traine quelque part." ;
+		tips['Veto'][1] = "Il te faut mon pingouin préféré ? C'est le dernier petit nouveau ! Tu devrais pouvoir le trouver sur une liste." ;
+		tips['Veto'][2] = "Comment ? le couple le plus mignon ? Tu doit avoir leur photo dans un des dossiers !" ;
+		tips['Veto'][3] = "A quoi ressemble Charlie ? Procède par élimination, d'abord trouve la couleur du pulls. On a pas toujours toutes les couleurs en stock. Ensuite tu devrais pouvoir éliminé quelques motifs, il y a des photos avec des noms. Et ensuite je sais pas trop, je sais qu'il y a eu une rixe. Certains pingouins se sont bléssés. Si tu arrive pas a les différencier demande a Don ou à Morice, ils pourront surement t'aider." ;
 
 
 		/*text for the instruction / solution windows*/
