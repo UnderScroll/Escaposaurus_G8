@@ -39,20 +39,21 @@
 	  		"folders":
 		  		[
 				{"foldername":"Documentation administratif","password":"Little Blue Bird Save","sequence":0,
-			  		"files":["Commande des pulls.jpg", "Billets_voyage.jpg", "Nouvel_Arrivage.jpg"]
+			  		"files":["Commande_des_pulls.jpg", "Billets_voyage.jpg", "Nouvel_Arrivage.jpg"],
+					"folders":[
+						{"foldername":"Documents 06.10", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
+							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.png"]}
+					]
 			  	},
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
 			  		"files":["Bonnie&Clyde.png", "Blue&Lagoon.png", "La_Bagarre.gif", "Veto_Love.png"]
 			  	},
-                {"foldername":"Documents 06/10", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
-			  		"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.png", "Rapport_Veto.png"]
-			  	},
-                {"foldername":"Localisator", "password":"R118","sequence":3,
+                {"foldername":"Trouvelepingouininator", "password":"R118","sequence":3,
 			  		"files":[]
 			  	}
 		 		],
 			"files":[
-				"Mots_de_Passe.png", "Penguin Trombi.jpg"]}
+				"Mots_de_Passe.png", "Pingouin_Trombi.png"]}
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
