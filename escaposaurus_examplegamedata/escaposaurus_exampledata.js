@@ -53,7 +53,11 @@
 			  	}
 		 		],
 			"files":[
+<<<<<<< Updated upstream
 				"Mots de Passe.png", "Penguin Trombi.png"]}
+=======
+				"Mots de Passe.jpg", "Penguin Trombi.png"]}
+>>>>>>> Stashed changes
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
@@ -99,12 +103,12 @@
 	their img need to be placed in their video folder, username is their displayed name
 		*/
 		var normalContacts = [] ;
-		normalContacts[0] = {"vid" : "Don", "vod_folder" : "", "username" : "Don", "canal" : "video", "avatar" : "pp_don.jpg"} ;
-		normalContacts[1] = {"vid" : "Maurice", "vod_folder" : "", "username" : "Maurice", "canal" : "video", "avatar" : "pp_maurice.jpg"} ;
+		normalContacts[0] = {"vid" : "Don", "vod_folder" : "Don", "username" : "Don", "canal" : "video", "avatar" : "pp_don.jpg"} ;
+		normalContacts[1] = {"vid" : "Maurice", "vod_folder" : "Maurice", "username" : "Maurice", "canal" : "video", "avatar" : "pp_maurice.jpg"} ;
 
 		/*second part of the list, contact that can help the player*/
 		var helperContacts = [] ;
-		helperContacts[0] = {"vid" : "Veto", "vod_folder" : "", "username" : "Veto", "canal" : "txt", "avatar" : "pp_veto.png", "bigAvatar" : "pp_veto.png"} ;
+		helperContacts[0] = {"vid" : "Veto", "vod_folder" : "Veto", "username" : "Veto", "canal" : "txt", "avatar" : "pp_veto.png", "bigAvatar" : "pp_veto.png"} ;
 
 
 		/*ce qui apparait quand on trouve le dernier élément du disque dur*/
