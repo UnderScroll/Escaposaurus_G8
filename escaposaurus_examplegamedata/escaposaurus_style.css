@@ -208,6 +208,7 @@ video{
 	background-color:#000;
 	width:1000px;
 	text-align: center;
+	box-shadow: -10px 8px 5px #282b2f1f;
 }
 
 #notnowPrompt-window,
@@ -226,22 +227,25 @@ video{
 	background-color:#FCF9F5;
 	color: #000;
 	width:200px;
+	box-shadow: -10px 8px 5px #282b2f1f;
 }
 
 #message-window{
 	position:absolute;
 	z-index:300;
 	left:37%;
-	top:35%;
+	top:30%;
 	border-radius: 8px;
 	background-color:#FCF9F5;
 	color: #000;
 	width:500px;
+	box-shadow: -10px 5px 5px #282b2f1f;
 }
 
 #solution-window,
 #credit-window{
 	background-color:#FCF9F5;
+	box-shadow: -10px 5px 5px #282b2f1f;
 }
 
 #solution-window{
@@ -315,11 +319,11 @@ video{
 }
 
 #footer{
-	height:34px;
+	height:50px;
 	width:100%;
 	background-color:#37383f;
 	position: absolute;
-	padding-top:3px;
+	padding-top:10px;
 	padding-bottom:3px;
 	bottom: 0;
 	text-align: center;

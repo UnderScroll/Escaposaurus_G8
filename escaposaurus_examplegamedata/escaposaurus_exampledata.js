@@ -55,7 +55,7 @@
 			"files":["Mots de Passe.jpg", "Penguin Trombi.png"]}
 		} ;
 
-		var gameTitle = "Il faut sauver soldat Charlie" ;
+		var gameTitle = "Il faut sauver le pingouin Charlie" ;
 		var gameDescriptionHome = "Seul dans le bureau de la Madame, le téléphone sonne, vite, il faut répondre!<br/>Le code source est téléchargeable sur <a href='https://github.com/UnderScroll/Escaposaurus_G8' target='_blank'>GitHub</a>" ;
 		var gameMissionCall = "Voici la vidéo que la Madame vous a envoyée " ;
 		var gameMissionAccept = "&raquo;&raquo; Ouvir le nordinateur de la Madame (JOUER) &laquo;&laquo;" ;
@@ -89,7 +89,7 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "Mots de Passe.png" ;
+		seqMainHint[0] = "noHint" ;
 		seqMainHint[1] = "Nouvel_Arrivage.pdf" ;
 		seqMainHint[2] = "noHint" ;
 		seqMainHint[3] = "noHint" ;
