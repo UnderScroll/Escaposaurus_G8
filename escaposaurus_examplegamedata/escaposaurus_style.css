@@ -21,6 +21,7 @@ body{font-family: Rubik;}
 video{
 	max-width: 960px;
 	margin-top: 45px;
+	height: 500px;
 }
 
 @font-face {

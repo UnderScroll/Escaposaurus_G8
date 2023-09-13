@@ -110,7 +110,7 @@
 		finalStepAdded = "Charlie a été retrouvé!" ;
 
 		/*the last call, it can be the person we find in the end or anyone else we call to end the quest, allows the game to know it is the final contact that is called and to proceed with the ending*/
-		var missingContact = {"vid" : "VetoEnd", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "veto.jpg"} ;
+		var missingContact = {"vid" : "VetoEnd", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "pp_veto.png"} ;
 
 		/*The Veto only sends text messages, they are stored here*/
 		var tips = {} ;
