@@ -18,7 +18,10 @@ body{font-family: Rubik;}
 	z-index:302;
 }
  
-video{max-width: 960px;}
+video{
+	max-width: 960px;
+	margin-top: 45px;
+}
 
 @font-face {
     font-family: Koulen;
@@ -107,7 +110,7 @@ video{max-width: 960px;}
 	border-radius: 8px;
 	width:500px;
 	height:75%;
-	max-height:308px;
+	max-height:297px;
 	padding:0 0 0 0;
 	margin:200 100 12 50;
 	background-color:#FCF9F5;
@@ -157,6 +160,10 @@ video{max-width: 960px;}
 	font-weight: normal;
 }
 
+.tips-content{
+	margin: 5px;
+}
+
 /* udisk app*/
 #folderApp{
 	width:450px;
@@ -194,7 +201,7 @@ video{max-width: 960px;}
 #UIvid-window{
 	position:absolute;
 	z-index:305;
-	left:20%;
+	left:24%;
 	top:10%;
 	border: none;
 	border-radius: 8px;
@@ -272,6 +279,7 @@ video{max-width: 960px;}
 	padding-left:10px;
 	padding-right:10px;
 	margin:3px;
+	margin-bottom: 13px;
 	font-family: Rubik ;
 	font-size:14px;
 	font-weight:bold;
@@ -447,6 +455,7 @@ ul{
 .imageBig{
 	width: 200px;
 	height: 100%;
+	margin: 10px;
 }
 
 .arbo:last-child:after{ display: none }
