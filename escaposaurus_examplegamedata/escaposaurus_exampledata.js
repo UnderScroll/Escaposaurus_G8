@@ -38,21 +38,21 @@
 	  	{"root":{
 	  		"folders":
 		  		[
-				{"foldername":"Habillage des pingouins","password":"Aperture","sequence":0,
-			  		"files":["Commande des pulls.jpg", "Billets voyage.jpg"]
+				{"foldername":"Documentation administratif","password":"Little Blue Bird Save","sequence":0,
+			  		"files":["Commande des pulls.jpg", "Billets_voyage.jpg", "Nouvel_Arrivage.jpg"]
 			  	},
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
-			  		"files":["B & C.png", "B & L.png", "La Bagarre.gif", "Veto Love.png"]
+			  		"files":["Bonnie&Clyde.png", "Blue&Lagoon.png", "La_Bagarre.gif", "Veto_Love.png"]
 			  	},
-                {"foldername":"Administratif", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie","sequence":2,
-			  		"files":["Employés du mois.png"]
+                {"foldername":"Documents 06/10", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
+			  		"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.png", "Rapport_Veto.png"]
 			  	},
-                {"foldername":"Data biométrique", "password":"118","sequence":3,
+                {"foldername":"Localisator", "password":"R118","sequence":3,
 			  		"files":[]
 			  	}
 		 		],
 			"files":[
-				"Mots_de_Passe.png", "Nouvel Arrivage.jpg", "Penguin Trombi.jpg"]}
+				"Mots_de_Passe.png", "Penguin Trombi.jpg"]}
 		} ;
 
 		var gameTitle = "Il faut sauver soldat Charlie" ;
@@ -76,11 +76,11 @@
 		/*change of caller app prompt for each sequence*/
 		var promptDefault = "Rien à demander, ne pas les déranger." ;
 		var prompt = [] ;
-		prompt[0] = " " ;
-		prompt[1] = " " ;
-		prompt[2] = " " ;
-		prompt[3] = " " ;
-		prompt[4] = " " ;
+		prompt[0] = "Placeholder" ;
+		prompt[1] = "Placeholder" ;
+		prompt[2] = "Placeholder" ;
+		prompt[3] = "Placeholder" ;
+		prompt[4] = "Placeholder" ;
 
 		/*when the sequence number reaches this, the player win, the missing contact is added and the player can call them*/
 		var sequenceWin = 4 ;
@@ -89,8 +89,8 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "noHint" ; //The "noHint" here does not work
-		seqMainHint[1] = "Mots_de_Passe.png" ;
+		seqMainHint[0] = "noHint" ;
+		seqMainHint[1] = "Nouvel_Arrivage.jpg" ;
 		seqMainHint[2] = "noHint" ;
 		seqMainHint[3] = "noHint" ;
 
