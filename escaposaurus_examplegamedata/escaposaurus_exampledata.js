@@ -38,10 +38,10 @@
 	  	{"root":{
 	  		"folders":
 		  		[
-				{"foldername":"Documentation administratif","password":"Little Blue Bird Save","sequence":0,
+				{"foldername":"Documentation administrative","password":"Little Blue Bird Save","sequence":0,
 			  		"files":["Commande_des_pulls.jpg", "Billets_voyage.jpg", "Nouvel_Arrivage.jpg"],
 					"folders":[
-						{"foldername":"Documents 06.10", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
+						{"foldername":"Etude pingouins", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
 							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.png"]}
 					]
 			  	},
@@ -99,12 +99,12 @@
 	their img need to be placed in their video folder, username is their displayed name
 		*/
 		var normalContacts = [] ;
-		normalContacts[0] = {"vid" : "Don", "vod_folder" : "", "username" : "Don", "canal" : "video", "avatar" : "don_avatar.jpg"} ;
-		normalContacts[1] = {"vid" : "Maurice", "vod_folder" : "", "username" : "Maurice", "canal" : "video", "avatar" : "maurice_avatar.jpg"} ;
+		normalContacts[0] = {"vid" : "Don", "vod_folder" : "", "username" : "Don", "canal" : "video", "avatar" : "pp_don.jpg"} ;
+		normalContacts[1] = {"vid" : "Maurice", "vod_folder" : "", "username" : "Maurice", "canal" : "video", "avatar" : "pp_maurice.jpg"} ;
 
 		/*second part of the list, contact that can help the player*/
 		var helperContacts = [] ;
-		helperContacts[0] = {"vid" : "Veto", "vod_folder" : "", "username" : "Veto", "canal" : "txt", "avatar" : "veto.png", "bigAvatar" : "vetobig.png"} ;
+		helperContacts[0] = {"vid" : "Veto", "vod_folder" : "", "username" : "Veto", "canal" : "txt", "avatar" : "pp_veto.png", "bigAvatar" : "pp_veto.png"} ;
 
 
 		/*ce qui apparait quand on trouve le dernier élément du disque dur*/
