@@ -92,7 +92,7 @@
 		seqMainHint[0] = "Mots de Passe.jpg" ;
 		seqMainHint[1] = "Nouvel_Arrivage.pdf" ;
 		seqMainHint[2] = "" ;
-		seqMainHint[3] = "Le_bon_et_la_brute.png" ;
+		seqMainHint[3] = "Rapport_Veto.pdf" ;
 
 		/*contact list, vid is the name of their folder in the videoContact folder, then the game autoload the video named seq%number of the current sequence%, e.g. seq0.MP4 for the first sequence (numbered 0 because computer science habits)
 	their img need to be placed in their video folder, username is their displayed name
