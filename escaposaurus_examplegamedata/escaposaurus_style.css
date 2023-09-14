@@ -471,6 +471,33 @@ ul{
 
 .arbo:last-child:after{ display: none }
 
+#container-homeMission{
+	width: 800px;
+	background-color: #FCF9F5;
+	margin-top: 20px;
+	padding: 65px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 8px;
+}
+
+#home-gameTitle{
+	font-family: Koulen;
+	font-size: 40px;
+	margin:20px
+}
+
+#home-gameDescription{
+	font-family: Rubik;
+	font-size: 20px;
+}
+
+#home-mission{
+	font-family: Rubik;
+	font-weight: 600;
+	font-size: 20px;
+}
+
 /*for the animation of the windows we open and close*/
 @keyframes fadeIn {
   from {
