@@ -48,14 +48,14 @@
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
 			  		"files":["Bonnie&Clyde.png", "Blue&Lagoon.png", "La_Bagarre.gif", "Veto_Love.png"]
 			  	},
-                {"foldername":"Trouvelepingouininator", "password":"R118","sequence":3,
+                {"foldername":"Tracker GPS", "password":"R118","sequence":3,
 			  		"files":[]
 			  	}
 		 		],
 			"files":["Mots de Passe.jpg", "Penguin Trombi.png"]}
 		} ;
 
-		var gameTitle = "Il faut sauver le pingouin Charlie" ;
+		var gameTitle = "Il faut sauver soldat Charlie" ;
 		var gameDescriptionHome = "Seul dans le bureau de la Madame, le téléphone sonne, vite, il faut répondre!<br/>Le code source est téléchargeable sur <a href='https://github.com/UnderScroll/Escaposaurus_G8' target='_blank'>GitHub</a>" ;
 		var gameMissionCall = "Voici la vidéo que la Madame vous a envoyée " ;
 		var gameMissionAccept = "&raquo;&raquo; Ouvir le nordinateur de la Madame (JOUER) &laquo;&laquo;" ;
@@ -89,7 +89,7 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "noHint" ;
+		seqMainHint[0] = "Mots de Passe.png" ;
 		seqMainHint[1] = "Nouvel_Arrivage.pdf" ;
 		seqMainHint[2] = "noHint" ;
 		seqMainHint[3] = "noHint" ;
@@ -110,7 +110,7 @@
 		finalStepAdded = "Charlie a été retrouvé!" ;
 
 		/*the last call, it can be the person we find in the end or anyone else we call to end the quest, allows the game to know it is the final contact that is called and to proceed with the ending*/
-		var missingContact = {"vid" : "VetoEnd", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "pp_veto.png"} ;
+		var missingContact = {"vid" : "VetoEnd", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "veto.jpg"} ;
 
 		/*The Veto only sends text messages, they are stored here*/
 		var tips = {} ;
