@@ -42,7 +42,7 @@
 			  		"files":["Commande_des_pulls.pdf", "Article_1.jpg", "Nouvel_Arrivage.pdf"],
 					"folders":[
 						{"foldername":"Etude pingouins", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie, B&C","sequence":2,
-							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.pdf"]}
+							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.pdf", "Rapport_Veto.pdf"]}
 					]
 			  	},
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
@@ -91,7 +91,7 @@
 		var seqMainHint = [] ;
 		seqMainHint[0] = "Mots de Passe.jpg" ;
 		seqMainHint[1] = "Nouvel_Arrivage.pdf" ;
-		seqMainHint[2] = "noHint" ;
+		seqMainHint[2] = "" ;
 		seqMainHint[3] = "Le_bon_et_la_brute.png" ;
 
 		/*contact list, vid is the name of their folder in the videoContact folder, then the game autoload the video named seq%number of the current sequence%, e.g. seq0.MP4 for the first sequence (numbered 0 because computer science habits)
