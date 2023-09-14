@@ -42,7 +42,7 @@
 			  		"files":["Commande_des_pulls.pdf", "Article_1.jpg", "Nouvel_Arrivage.pdf"],
 					"folders":[
 						{"foldername":"Etude pingouins", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
-							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.pdf"]}
+							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.pdf", "Rapport_Veto.pdf"]}
 					]
 			  	},
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
@@ -76,11 +76,11 @@
 		/*change of caller app prompt for each sequence*/
 		var promptDefault = "Rien à demander, ne pas les déranger." ;
 		var prompt = [] ;
-		prompt[0] = "Placeholder" ;
-		prompt[1] = "Placeholder" ;
-		prompt[2] = "Placeholder" ;
-		prompt[3] = "Placeholder" ;
-		prompt[4] = "Placeholder" ;
+		prompt[0] = "Rien à demander, ne pas les déranger." ;
+		prompt[1] = "Disponibles pour un appel." ;
+		prompt[2] = "Rien à demander, ne pas les déranger." ;
+		prompt[3] = "Disponibles pour un appel." ;
+		prompt[4] = "Appelle moi!" ;
 
 		/*when the sequence number reaches this, the player win, the missing contact is added and the player can call them*/
 		var sequenceWin = 4 ;
