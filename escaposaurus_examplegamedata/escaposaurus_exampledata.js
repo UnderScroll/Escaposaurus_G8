@@ -76,7 +76,7 @@
 		/*change of caller app prompt for each sequence*/
 		var promptDefault = "Rien à demander, ne pas les déranger." ;
 		var prompt = [] ;
-		prompt[0] = "Rien à demander, ne pas les déranger." ;
+		prompt[0] = "Disponibles pour un appel." ;
 		prompt[1] = "Disponibles pour un appel." ;
 		prompt[2] = "Rien à demander, ne pas les déranger." ;
 		prompt[3] = "Disponibles pour un appel." ;
