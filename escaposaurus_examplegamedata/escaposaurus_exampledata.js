@@ -41,8 +41,8 @@
 				{"foldername":"Documentation administratif","password":"Little Blue Bird Save, LBBS","sequence":0,
 			  		"files":["Commande_des_pulls.pdf", "Article_1.jpg", "Nouvel_Arrivage.pdf"],
 					"folders":[
-						{"foldername":"Etude pingouins", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie","sequence":2,
-							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.pdf", "Rapport_Veto.pdf"]}
+						{"foldername":"Etude pingouins", "password":"Bonnie&Clyde, BonnieClyde, Bonnie et Clyde, ClydeBonnie, Clyde&Bonnie, Clyde et Bonnie, Bonnie and Clyde, Clyde and Bonnie, B&C","sequence":2,
+							"files":["Le_bon_et_la_brute.png", "Liste_Identifiants.jpg", "Rapport_Veto.pdf"]}
 					]
 			  	},
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
@@ -55,10 +55,10 @@
 			"files":["Mots de Passe.jpg", "Penguin Trombi.png"]}
 		} ;
 
-		var gameTitle = "Il faut sauver soldat Charlie" ;
-		var gameDescriptionHome = "Seul dans le bureau de la Madame, le téléphone sonne, vite, il faut répondre!<br/>Le code source est téléchargeable sur <a href='https://github.com/UnderScroll/Escaposaurus_G8' target='_blank'>GitHub</a>" ;
-		var gameMissionCall = "Voici la vidéo que la Madame vous a envoyée " ;
-		var gameMissionAccept = "&raquo;&raquo; Ouvir le nordinateur de la Madame (JOUER) &laquo;&laquo;" ;
+		var gameTitle = "Il faut sauver le pingouin Charlie" ;
+		var gameDescriptionHome = "Vous incarnez Bob, un jeune pingouin stagiaire auprès d'une association de préservation des pingouins néo-zélandaise. <br/>Le code source est téléchargeable sur <a href='https://github.com/UnderScroll/Escaposaurus_G8' target='_blank'>GitHub</a>" ;
+		var gameMissionCall = "La Véto est partie en urgence et vous a laissé un message pour que vous preniez la relève ! " ;
+		var gameMissionAccept = "Accepter d'aider la Véto et accéder à sa session personnelle. (JOUER)" ;
 
 		var gameCredit = "Un jeu conçu et réalisé par : <br/>l'équipe 8 de la P20 JMIN" ;
 		var gameThanks = "Remerciements : personne, on déteste tout le monde" ;
@@ -89,10 +89,10 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "Mots de Passe.png" ;
+		seqMainHint[0] = "Mots de Passe.jpg" ;
 		seqMainHint[1] = "Nouvel_Arrivage.pdf" ;
 		seqMainHint[2] = "noHint" ;
-		seqMainHint[3] = "noHint" ;
+		seqMainHint[3] = "Le_bon_et_la_brute.png" ;
 
 		/*contact list, vid is the name of their folder in the videoContact folder, then the game autoload the video named seq%number of the current sequence%, e.g. seq0.MP4 for the first sequence (numbered 0 because computer science habits)
 	their img need to be placed in their video folder, username is their displayed name
@@ -110,7 +110,7 @@
 		finalStepAdded = "Charlie a été retrouvé!" ;
 
 		/*the last call, it can be the person we find in the end or anyone else we call to end the quest, allows the game to know it is the final contact that is called and to proceed with the ending*/
-		var missingContact = {"vid" : "VetoEnd", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "veto.jpg"} ;
+		var missingContact = {"vid" : "VetoEnd", "vod_folder" : "","username" : "Veto",  "canal" : "video", "avatar" : "pp_veto.png"} ;
 
 		/*The Veto only sends text messages, they are stored here*/
 		var tips = {} ;

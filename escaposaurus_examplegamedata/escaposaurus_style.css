@@ -231,6 +231,11 @@ video{
 	box-shadow: -10px 8px 5px #282b2f1f;
 }
 
+#solution-window,
+#credit-window{
+	left:39%;
+}
+
 #message-window{
 	position:absolute;
 	z-index:300;
