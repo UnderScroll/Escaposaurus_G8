@@ -48,7 +48,7 @@
 			  	{"foldername":"Photos des affreux", "password":"Bebou","sequence":1,
 			  		"files":["Bonnie&Clyde.png", "Blue&Lagoon.png", "La_Bagarre.gif", "Veto_Love.png"]
 			  	},
-                {"foldername":"Tracker GPS", "password":"R118","sequence":3,
+                {"foldername":"Tracker Charlie", "password":"R118","sequence":3,
 			  		"files":[]
 			  	}
 		 		],
@@ -56,8 +56,8 @@
 		} ;
 
 		var gameTitle = "Il faut sauver le pingouin Charlie" ;
-		var gameDescriptionHome = "Vous incarnez Bob, un jeune pingouin stagiaire auprès d'une association de préservation des pingouins néo-zélandaise. <br/>Le code source est téléchargeable sur <a href='https://github.com/UnderScroll/Escaposaurus_G8' target='_blank'>GitHub</a>" ;
-		var gameMissionCall = "La Véto est partie en urgence et vous a laissé un message pour que vous preniez la relève ! " ;
+		var gameDescriptionHome = "Vous incarnez Bob, un jeune pingouin stagiaire auprès d'une association de préservation des pingouins Néo-zélandaise. <br/>Le code source est téléchargeable sur <a href='https://github.com/UnderScroll/Escaposaurus_G8' target='_blank'>GitHub</a>" ;
+		var gameMissionCall = "La Véto est partie en urgence et vous a laissé un message pour que vous preniez la relève! " ;
 		var gameMissionAccept = "Accepter d'aider la Véto et accéder à sa session personnelle. (JOUER)" ;
 
 		var gameCredit = "Un jeu conçu et réalisé par : <br/>l'équipe 8 de la P20 JMIN" ;
@@ -115,10 +115,10 @@
 		/*The Veto only sends text messages, they are stored here*/
 		var tips = {} ;
 		tips['Veto'] = [] ;
-		tips['Veto'][0] = "Je peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tout le monde dans un des dossier... Il doit y avoir une liste des mots de passe qui traine quelque part." ;
-		tips['Veto'][1] = "Il te faut mon pingouin préféré ? C'est le dernier petit nouveau ! Tu devrais pouvoir le trouver sur une liste." ;
-		tips['Veto'][2] = "Comment ? le couple le plus mignon ? Tu doit avoir leur photo dans un des dossiers !" ;
-		tips['Veto'][3] = "A quoi ressemble Charlie ? Procède par élimination, d'abord trouve la couleur du pulls. On a pas toujours toutes les couleurs en stock. Ensuite tu devrais pouvoir éliminé quelques motifs, il y a des photos avec des noms. Et ensuite je sais pas trop, je sais qu'il y a eu une rixe. Certains pingouins se sont bléssés. Si tu arrive pas a les différencier demande a Don ou à Morice, ils pourront surement t'aider." ;
+		tips['Veto'][0] = "Je ne peux pas répondre à ton appel. Mais je peux te répondre par écrit.<br/>Tu veux déverrouiller l'identificateur pour retrouver Charlie ? Je ne connais pas son identifiant mais tu devrais pouvoir trouver une liste avec les ID de tous le monde dans un des dossiers... Il doit y avoir une liste des mots de passe qui traîne quelque part." ;
+		tips['Veto'][1] = "Il te faut mon pingouin préféré ? C'est le dernier petit nouveau! Tu devrais pouvoir le trouver sur une liste." ;
+		tips['Veto'][2] = "Comment ? Le couple le plus mignon ? Tu dois avoir leur photo dans un des dossiers!" ;
+		tips['Veto'][3] = "A quoi ressemble Charlie ? Procède par élimination, d'abord trouve la couleur du pull. On a pas toujours toutes les couleurs en stock.<br/>Ensuite tu devrais pouvoir éliminer quelques motifs, il y a des photos avec des noms.<br/>Je sais qu'il y a eu une rixe, certains pingouins se sont bléssés. Si tu n'arrives pas à les différencier demande à Don ou à Maurice, ils pourront surement t'aider!" ;
 
 
 		/*text for the instruction / solution windows*/
